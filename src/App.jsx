@@ -6,10 +6,13 @@ import SpecialOffer from "./sections/SpecialOffer";
 import Services from "./sections/Services";
 import Footer from "./sections/footer";
 import PopularProducts from "./sections/PopularProducts";
-
+import Nav from "./components/Nav";
 const App = () => {
   return (
     <main className="flex">
+      <section>
+        <Nav/>
+      </section>
        <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
       </section>
