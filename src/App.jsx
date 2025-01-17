@@ -9,14 +9,14 @@ import PopularProducts from "./sections/PopularProducts";
 import Nav from "./components/Nav";
 const App = () => {
   return (
-    <main className="flex">
+    <main>
       <section>
         <Nav/>
       </section>
        <section className='xl:padding-l wide:padding-r padding-b'>
         <Hero />
       </section>
-      <section className='padding'>
+      <section className='padding'> 
         <PopularProducts />
       </section>
       <section className='padding'>
