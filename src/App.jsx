@@ -5,7 +5,8 @@ import Subscribe from "./sections/Subscribe";
 import SuperQuality from "./sections/SuperQuality";
 import SpecialOffer from "./sections/SpecialOffer";
 import Services from "./sections/Services";
-import Footer from "./sections/footer";
+
+import Footer from "./sections/Footer";
 import PopularProducts from "./sections/PopularProducts";
 import Nav from "./components/Nav";
 const App = () => {
