@@ -1,3 +1,4 @@
+import Heroo from "./sections/Hero";
 import Hero from "./sections/Hero";
 import CustomerReviews from "./sections/CustomerReviews";
 import Subscribe from "./sections/Subscribe";
@@ -10,11 +11,11 @@ import Nav from "./components/Nav";
 const App = () => {
   return (
     <main>
-      <section>
+      <section className='relative'>
         <Nav/>
       </section>
        <section className='xl:padding-l wide:padding-r padding-b'>
-        <Hero />
+        <Heroo/>
       </section>
       <section className='padding'> 
         <PopularProducts />
