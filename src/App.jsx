@@ -6,6 +6,7 @@ import SpecialOffer from "./sections/SpecialOffer";
 import Services from "./sections/Services";
 import PopularProducts from "./sections/PopularProducts";
 import Nav from "./components/Nav";
+import Footer from "./sections/Footer"
 const App = () => {
   return (
     <main>
@@ -33,7 +34,9 @@ const App = () => {
       <section className='padding-x sm:py-32 py-16 w-full'>
         <Subscribe />
       </section>
-      
+      <section className=' bg-black padding-x padding-t pb-8'>
+        <Footer />
+      </section>
     </main>
   );
 };
