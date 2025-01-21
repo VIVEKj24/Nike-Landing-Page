@@ -1,13 +1,12 @@
 import Button from "../components/Button"
 import {arrowRight} from '../../assets/icons/index'
+import { shoe8 } from "../../assets/images"
 
 const SuperQuality = () => {
   return (
     <section id="about-us" className="flex justify-between items-center max-lg:flex-col gap-10 w-full max-container">
-      <div className="flex flex-1 flex-col">
-  
-
-<h2 className="mt-10 font-palanquin text-4xl capitalize  font-bold lg:max-w-lg">
+<div className="flex flex-1 flex-col">
+  <h2 className="mt-10 font-palanquin text-4xl capitalize  font-bold lg:max-w-lg">
   <span className="xl:bg-white xl:whitespace-nowrap font-bold relative z-10 pr-10">We provide you</span>
   
   <span className="text-coral-red inline-block mt-3">Super Quality</span> Shoes
@@ -21,6 +20,9 @@ const SuperQuality = () => {
         <div className='mt-11'>
           <Button label='View details' />
         </div>
+      </div>
+      <div className="flex-1 flex justify-center items-center">
+        <img src={shoe8} alt="shoe" height={522} width={620} className="object-contain" />
       </div>
 
     </section>
