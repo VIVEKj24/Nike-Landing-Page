@@ -4,7 +4,7 @@ import { footerLinks, socialMedia } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className='max-container'>
+    <footer className='max-container' id="contact-us">
       <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
         <div className='flex flex-col items-start'>
           <a href='/'>
@@ -63,9 +63,14 @@ const Footer = () => {
             className='rounded-full m-0'
           />
           <p>Copyright. All rights reserved.</p>
+          
         </div>
+        
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
       </div>
+      <div className="flex justify-center flex-row max-sm:flex-col max-sm:mx-20 max-sm:my-10 mb-10">
+      <p className="text-2xl max-sm:mx-16 animate-bounce"> &#x2764;</p>
+      <span className="text-slate-gray text-2xl font-montserrat "> Made By Vivek</span></div>
     </footer>
   );
 };
